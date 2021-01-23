@@ -1,3 +1,7 @@
+*{
+    list-style: none;
+}
+
 .img-perfil{
     width: 70px;
     height: 70px;
@@ -5,4 +9,9 @@
 
 .menu{
     font-family: 'Press Start 2P', cursive;
+}
+
+.fa-pencil-square-o{
+    color: white;
+    width: 100px;
 }
