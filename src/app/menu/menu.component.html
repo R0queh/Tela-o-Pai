@@ -1,25 +1,26 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-dark menu">
-    <div class="container-fluid">
-      <div class="mr-auto">
+    <div class="row container-fluid">
+      <div class="col-md-3 d-flex flex-column text-center justify-content-start">
         <a class="navbar-brand">
           <img src="{{foto}}" class="img-perfil img-fluid rounded-circle" alt="Foto do usuário"></a>
-          <div class="d-flex">
+          
             <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
             <a href="" class="ml-2"><i class="fa fa-pencil-square-o " aria-hidden="true"></i></a>
-          </div>
-        </div>
+          
+      </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
           aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-brand text-center justify-content-center m-auto titulo">
+      <div class="col-md-7 d-flex flex-column navbar-brand text-center justify-content-center titulo">
         <a href="#"><img src="../../assets/img/controller.png" alt=""></a>
 
         <h2 class="text-light">Tela o pai !</h2>
       </div>
-
+      <div class="col-md-2 d-flex justify-content-end">
       <a href="" (click)='sair'><button class="btn btn-outline-danger ml-auto">
         <p class="m-0">Sair <i class="fa fa-power-off" aria-hidden="true"></i></p>
       </button></a>
+    </div>
     </div>
   </nav>
